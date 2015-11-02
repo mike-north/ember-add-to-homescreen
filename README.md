@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mike-north/ember-add-to-homescreen.svg)](https://travis-ci.org/mike-north/ember-add-to-homescreen)
+
 # ember-add-to-homescreen 
 
 ![](http://i63.tinypic.com/14bl3ph.png)
