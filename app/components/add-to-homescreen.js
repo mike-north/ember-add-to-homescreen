@@ -1,0 +1,1 @@
+export { default } from 'ember-add-to-homescreen/components/add-to-homescreen';
