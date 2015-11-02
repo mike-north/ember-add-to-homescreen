@@ -1,6 +1,16 @@
-# Ember-add-to-homescreen
+# ember-add-to-homescreen
 
 This README outlines the details of collaborating on this Ember addon.
+
+## Usage
+
+Place the component in your application.hbs file as follows
+
+```hbs
+
+{{add-to-homescreen}}
+
+```
 
 ## Installation
 
