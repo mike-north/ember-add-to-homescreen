@@ -1,4 +1,4 @@
-# ember-add-to-homescreen
+# ember-add-to-homescreen ![](http://i68.tinypic.com/2h3dehk.png)
 
 This README outlines the details of collaborating on this Ember addon.
 
