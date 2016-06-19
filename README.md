@@ -17,9 +17,11 @@ Place the component in your application.hbs file as follows
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+`ember install ember-add-to-homescreen`
+
+Then:
+
+`ember g ember-add-to-homescreen <name-of-app>`
 
 ## Running
 
