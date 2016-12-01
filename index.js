@@ -6,8 +6,10 @@ module.exports = {
   included: function(app) {
     this._super.included(app);
 
-
-    app.import(app.bowerDirectory + '/add-to-homescreen/src/addtohomescreen.js');
+    if (process.env.EMBER_CLI_FASTBOOT !== 'true') {
+      app.import(app.bowerDirectory + '/add-to-homescreen/src/addtohomescreen.js');
+    }
     app.import(app.bowerDirectory + '/add-to-homescreen/style/addtohomescreen.css');
+
   }
 };
