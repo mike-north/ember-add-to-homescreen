@@ -36,7 +36,12 @@
     "loader.js": "^4.0.10"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "mobile",
+    "homescreen",
+    "bookmark",
+    "webclip",
+    "clip"
   ],
   "dependencies": {
     "ember-cli-htmlbars": "^1.0.10",
