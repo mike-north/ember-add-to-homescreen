@@ -2,15 +2,15 @@ import Ember from 'ember';
 import { module, test } from 'qunit';
 import startApp from '../../tests/helpers/start-app';
 
-const { RSVP } = Ember;
+const { RSVP, run, $ } = Ember;
 
 module('Acceptance | index', {
-  beforeEach: function() {
+  beforeEach() {
     this.application = startApp();
   },
 
-  afterEach: function() {
-    Ember.run(this.application, 'destroy');
+  afterEach() {
+    run(this.application, 'destroy');
   }
 });
 
@@ -23,7 +23,7 @@ test('visiting /', function(assert) {
   }).then(() => {
     return new RSVP.Promise((resolve) => {
       setTimeout(() => {
-        assert.equal(Ember.$('.ath-viewport').length, 1, 'Add to home screen popup is displayed');
+        assert.equal($('.ath-viewport').length, 1, 'Add to home screen popup is displayed');
         resolve();
       }, 3000);
     });
