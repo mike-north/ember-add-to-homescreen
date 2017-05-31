@@ -1,6 +1,6 @@
 {
   "name": "ember-add-to-homescreen",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "An Ember.js wrapper around the add-to-homescreen library",
   "directories": {
     "doc": "doc",
@@ -19,7 +19,8 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
-    "ember-cli": "2.10.0",
+    "broccoli-funnel": "1.2.0",
+    "ember-cli": "2.14.0-beta.2",
     "ember-cli-app-version": "^2.0.0",
     "ember-cli-dependency-checker": "^1.3.0",
     "ember-cli-htmlbars-inline-precompile": "^0.3.3",
@@ -44,8 +45,11 @@
     "clip"
   ],
   "dependencies": {
-    "ember-cli-htmlbars": "^1.0.10",
-    "ember-cli-babel": "^5.1.7"
+    "broccoli-funnel": "^1.2.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "broccoli-stew": "^1.5.0",
+    "ember-cli-babel": "^5.1.7",
+    "ember-cli-htmlbars": "^1.0.10"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
