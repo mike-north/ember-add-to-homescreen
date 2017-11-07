@@ -25,6 +25,10 @@ Then:
 
 `ember g ember-add-to-homescreen <name-of-app>`
 
+## Fastboot Support
+
+For pre-1.0 versions of [Fastboot](http://ember-fastboot.com/) make sure to use the most recent `0.1.x` release of this library. For Fastboot 1.0 or newer, use `0.2.x` (or newer) releases. 
+
 ## Running
 
 * `ember server`
