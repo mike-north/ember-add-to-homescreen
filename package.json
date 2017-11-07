@@ -18,7 +18,6 @@
   "author": "Mike North <michael.l.north@gmail.com> (http://mike.works)",
   "license": "MIT",
   "devDependencies": {
-    "add-to-homescreen": "^3.2.6",
     "broccoli-asset-rev": "^2.4.5",
     "broccoli-funnel": "^2.0.1",
     "broccoli-merge-trees": "^2.0.0",
@@ -53,6 +52,7 @@
     "clip"
   ],
   "dependencies": {
+    "add-to-homescreen": "^3.2.6",
     "ember-cli-babel": "^6.7.0",
     "ember-cli-htmlbars": "^2.0.1"
   },
