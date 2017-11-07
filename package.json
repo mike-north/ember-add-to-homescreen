@@ -1,6 +1,6 @@
 {
   "name": "ember-add-to-homescreen",
-  "version": "0.2.0",
+  "version": "0.1.6",
   "description": "An Ember.js wrapper around the add-to-homescreen library",
   "directories": {
     "doc": "doc",
