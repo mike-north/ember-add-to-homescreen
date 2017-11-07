@@ -7,7 +7,7 @@ var Funnel = require('broccoli-funnel');
 var map = require('broccoli-stew').map;
 var mergeTrees = require('broccoli-merge-trees');
 
-var A2H_ASSET_PATH = path.join(__dirname, 'node_modules', 'add-to-homescreen');
+var A2H_ASSET_PATH = require.resolve('add-to-homescreen');
 var A2H_JS_PATH = A2H_ASSET_PATH;
 var A2H_CSS_PATH = path.join(A2H_ASSET_PATH, 'dist', 'style');
 
