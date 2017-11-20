@@ -5,6 +5,8 @@
 
 ![](http://i63.tinypic.com/14bl3ph.png)
 
+This makes it easy to use the npm package [`add-to-homescreen`](http://cubiq.org/add-to-home-screen) in an ember app.
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Usage
