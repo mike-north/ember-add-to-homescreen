@@ -6,16 +6,12 @@ moduleForComponent('add-to-homescreen', 'Integration | Component | add to homesc
 });
 
 test('it renders', function(assert) {
-  assert.expect(2);
-
-  // Set any properties with this.set('myProperty', 'value');
-  // Handle any actions with this.on('myAction', function(val) { ... });
-
   this.render(hbs`{{add-to-homescreen}}`);
 
   assert.equal(this.$().text().trim(), '');
+});
 
-  // Template block usage:
+test('it renders in block form', function(assert) {
   this.render(hbs`
     {{#add-to-homescreen}}
       template block text
