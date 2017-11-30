@@ -20,3 +20,11 @@ test('it renders in block form', function(assert) {
 
   assert.equal(this.$().text().trim(), 'template block text');
 });
+
+test('it renders with arguments passed', function(assert) {
+  this.render(hbs`
+    {{add-to-homescreen message="text passed into the message attr"}}
+  `);
+
+  assert.equal(this.$().text().trim(), 'text passed into the message attr');
+});
