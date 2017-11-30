@@ -8,6 +8,7 @@ export default Component.extend({
 
   didInsertElement() {
     this._super(...arguments);
-    window.addToHomescreen({ debug: false });
+    const config = Object.assign({debug: false}, this.get('attrs'));
+    window.addToHomescreen(config);
   }
 });
