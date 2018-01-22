@@ -1936,9 +1936,9 @@ ember-cli-eslint@^4.0.0:
     rsvp "^4.6.1"
     walk-sync "^0.3.0"
 
-ember-cli-fastboot@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-fastboot/-/ember-cli-fastboot-1.1.0.tgz#08bb3b7a2fdaaab6db5b2ae7e59db792c53db690"
+ember-cli-fastboot@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/ember-cli-fastboot/-/ember-cli-fastboot-1.1.2.tgz#5b79cc2744b7c97f1f5166aab826e20ba55332ba"
   dependencies:
     broccoli-concat "^3.2.2"
     broccoli-funnel "^2.0.0"
@@ -1946,12 +1946,14 @@ ember-cli-fastboot@^1.0.0:
     broccoli-plugin "^1.2.1"
     chalk "^2.0.1"
     ember-cli-babel "^6.7.2"
-    ember-cli-version-checker "^2.0.0"
+    ember-cli-lodash-subset "2.0.1"
+    ember-cli-preprocess-registry "^3.1.0"
+    ember-cli-version-checker "^2.1.0"
     fastboot "^1.1.0"
     fastboot-express-middleware "^1.1.0"
-    fs-extra "^4.0.0"
+    fastboot-transform "^0.1.2"
+    fs-extra "^4.0.2"
     json-stable-stringify "^1.0.1"
-    lodash.uniq "^4.2.0"
     md5-hex "^2.0.0"
     silent-error "^1.0.0"
 
@@ -2012,13 +2014,13 @@ ember-cli-legacy-blueprints@^0.2.0:
     rsvp "^4.7.0"
     silent-error "^1.0.0"
 
+ember-cli-lodash-subset@2.0.1, ember-cli-lodash-subset@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-lodash-subset/-/ember-cli-lodash-subset-2.0.1.tgz#20cb68a790fe0fde2488ddfd8efbb7df6fe766f2"
+
 ember-cli-lodash-subset@^1.0.7:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/ember-cli-lodash-subset/-/ember-cli-lodash-subset-1.0.12.tgz#af2e77eba5dcb0d77f3308d3a6fd7d3450f6e537"
-
-ember-cli-lodash-subset@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/ember-cli-lodash-subset/-/ember-cli-lodash-subset-2.0.1.tgz#20cb68a790fe0fde2488ddfd8efbb7df6fe766f2"
 
 ember-cli-normalize-entity-name@^1.0.0:
   version "1.0.0"
@@ -2669,6 +2671,12 @@ fastboot-express-middleware@^1.1.0:
     fastboot "^1.1.0"
     request "^2.81.0"
 
+fastboot-transform@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/fastboot-transform/-/fastboot-transform-0.1.2.tgz#f910d666ab93e75604492ea655270d1804bc8de7"
+  dependencies:
+    broccoli-stew "^1.5.0"
+
 fastboot@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/fastboot/-/fastboot-1.1.0.tgz#a15338220268f6c08282a76107bc3265a21bd233"
@@ -2872,6 +2880,14 @@ fs-extra@^2.0.0:
 fs-extra@^4.0.0:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.2.tgz#f91704c53d1b461f893452b0c307d9997647ab6b"
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
+fs-extra@^4.0.2:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
   dependencies:
     graceful-fs "^4.1.2"
     jsonfile "^4.0.0"
