@@ -41,7 +41,7 @@
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.1.0",
     "ember-source": "~2.18.0",
-    "greenkeeper-lockfile": "^1.2.1",
+    "greenkeeper-lockfile": "^1.13.1",
     "loader.js": "^4.2.3"
   },
   "keywords": [
