@@ -15,6 +15,7 @@ module('Acceptance | index', {
 });
 
 test('visiting /', function(assert) {
+  assert.expect(2);
   window.localStorage.clear('org.cubiq.addtohome');
   visit('/');
 
