@@ -21,7 +21,7 @@
     "@types/ember": "^2.0.0",
     "broccoli-asset-rev": "^2.4.5",
     "broccoli-funnel": "^2.0.1",
-    "broccoli-merge-trees": "^2.0.0",
+    "broccoli-merge-trees": "^3.0.0",
     "broccoli-stew": "^1.5.0",
     "ember-cli": "~2.18.0",
     "ember-cli-app-version": "^3.0.0",
