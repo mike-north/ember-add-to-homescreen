@@ -19,7 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/ember": "^2.0.0",
-    "broccoli-asset-rev": "^2.4.5",
+    "broccoli-asset-rev": "^2.7.0",
     "broccoli-funnel": "^2.0.1",
     "broccoli-merge-trees": "^2.0.0",
     "broccoli-stew": "^1.5.0",
