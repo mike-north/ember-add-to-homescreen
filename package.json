@@ -54,7 +54,7 @@
   ],
   "dependencies": {
     "add-to-homescreen": "^3.2.6",
-    "ember-cli-babel": "^6.7.0",
+    "ember-cli-babel": "^6.13.0",
     "ember-cli-htmlbars": "^2.0.1"
   },
   "ember-addon": {
