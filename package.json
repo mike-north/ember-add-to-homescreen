@@ -13,36 +13,51 @@
   },
   "repository": "https://github.com/mike-north/ember-add-to-homescreen.git",
   "engines": {
-    "node": "^4.5 || 6.* || >= 7.*"
+    "node": "6.* || 8.* || >= 10.*"
   },
   "author": "Mike North <michael.l.north@gmail.com> (http://mike.works)",
   "license": "MIT",
   "devDependencies": {
-    "@types/ember": "^2.0.0",
-    "broccoli-asset-rev": "^2.4.5",
+    "@commitlint/cli": "7.2.1",
+    "@commitlint/config-conventional": "7.1.2",
+    "@commitlint/travis-cli": "7.2.1",
+    "@ember/optional-features": "^0.7.0",
+    "@ember/test-helpers": "^1.0.1",
+    "@types/ember": "^3.0.25",
+    "broccoli-asset-rev": "^3.0.0",
     "broccoli-funnel": "^2.0.1",
-    "broccoli-merge-trees": "^2.0.0",
-    "broccoli-stew": "^1.5.0",
-    "ember-cli": "~2.18.0",
+    "broccoli-merge-trees": "^3.0.1",
+    "broccoli-stew": "^2.0.1",
+    "ember-cli": "^3.5.0",
     "ember-cli-app-version": "^3.0.0",
-    "ember-cli-dependency-checker": "^2.0.0",
-    "ember-cli-eslint": "^4.0.0",
-    "ember-cli-fastboot": "^1.0.0",
-    "ember-cli-htmlbars-inline-precompile": "~1.0.0",
-    "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-dependency-checker": "^3.0.0",
+    "ember-cli-eslint": "^5.0.0",
+    "ember-cli-fastboot": "^2.0.0",
+    "ember-cli-htmlbars-inline-precompile": "^2.0.0",
+    "ember-cli-inject-live-reload": "^2.0.1",
     "ember-cli-qunit": "^4.0.0",
-    "ember-cli-release": "1.0.0-beta.2",
     "ember-cli-shims": "^1.1.0",
     "ember-cli-sri": "^2.1.0",
-    "ember-cli-test-loader": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^2.0.0",
-    "ember-load-initializers": "^1.0.0",
-    "ember-resolver": "^4.1.0",
-    "ember-source": "~2.18.0",
-    "greenkeeper-lockfile": "^1.2.1",
-    "loader.js": "^4.2.3"
+    "ember-load-initializers": "^2.0.0",
+    "ember-maybe-import-regenerator": "^0.1.6",
+    "ember-qunit": "^4.1.2",
+    "ember-resolver": "^5.0.1",
+    "ember-source": "^3.5.1",
+    "ember-source-channel-url": "^1.1.0",
+    "ember-try": "^1.0.0",
+    "eslint-plugin-ember": "^5.2.0",
+    "eslint-plugin-node": "^8.0.0",
+    "husky": "1.1.2",
+    "loader.js": "^4.7.0",
+    "qunit-dom": "^0.8.0"
+  },
+  "optionalDependencies": {
+    "@mike-north/js-lib-renovate-config": "^1.0.0",
+    "@mike-north/js-lib-semantic-release-config": "^1.0.0",
+    "semantic-release": "^15.9.12"
   },
   "keywords": [
     "ember-addon",
@@ -54,10 +69,28 @@
   ],
   "dependencies": {
     "add-to-homescreen": "^3.2.6",
-    "ember-cli-babel": "^6.7.0",
-    "ember-cli-htmlbars": "^2.0.1"
+    "ember-cli-babel": "^7.1.3",
+    "ember-cli-htmlbars": "^3.0.1",
+    "travis-deploy-once": "^5.0.9"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "./node_modules/.bin/commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  },
+  "release": {
+    "extends": "@mike-north/js-lib-semantic-release-config"
+  },
+  "toolchain": {
+    "node": "8.12.0",
+    "yarn": "1.10.0"
   }
 }

@@ -1,13 +1,12 @@
-import Ember from 'ember';
 import layout from '../templates/components/add-to-homescreen';
-
-const { Component } = Ember;
-
+import Component from '@ember/component';
+window.addToHomescreen.isMobileChrome = true;
 export default Component.extend({
   layout,
 
   didInsertElement() {
     this._super(...arguments);
+
     window.addToHomescreen({ debug: false });
   }
 });
