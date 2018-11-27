@@ -1,3 +1,11 @@
+## [0.3.1](https://github.com/mike-north/ember-add-to-homescreen/compare/v0.3.0...v0.3.1) (2018-11-27)
+
+
+### Bug Fixes
+
+* optionalDependencies -> devDependencies ([aa105ef](https://github.com/mike-north/ember-add-to-homescreen/commit/aa105ef))
+* remove optionalDependencies from package.json ([81dda04](https://github.com/mike-north/ember-add-to-homescreen/commit/81dda04))
+
 # [0.3.0](https://github.com/mike-north/ember-add-to-homescreen/compare/v0.2.4...v0.3.0) (2018-11-10)
 
 
