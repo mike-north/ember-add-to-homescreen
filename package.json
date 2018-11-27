@@ -59,9 +59,6 @@
     "semantic-release": "^15.9.12",
     "qunit-dom": "0.8.1"
   },
-  "optionalDependencies": {
-
-  },
   "keywords": [
     "ember-addon",
     "mobile",
