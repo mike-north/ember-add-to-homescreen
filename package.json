@@ -57,7 +57,7 @@
     "husky": "1.2.0",
     "loader.js": "4.7.0",
     "semantic-release": "15.12.3",
-    "qunit-dom": "0.8.1"
+    "qunit-dom": "0.8.2"
   },
   "keywords": [
     "ember-addon",
