@@ -9,7 +9,7 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember try:each",
+    "test": "ember test",
     "semantic-release": "semantic-release"
   },
   "repository": "https://github.com/mike-north/ember-add-to-homescreen.git",
