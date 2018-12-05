@@ -10,7 +10,6 @@
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each",
-    "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
   "repository": "https://github.com/mike-north/ember-add-to-homescreen.git",
@@ -70,8 +69,7 @@
   "dependencies": {
     "add-to-homescreen": "^3.2.6",
     "ember-cli-babel": "^7.1.3",
-    "ember-cli-htmlbars": "^3.0.1",
-    "travis-deploy-once": "^5.0.9"
+    "ember-cli-htmlbars": "^3.0.1"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
