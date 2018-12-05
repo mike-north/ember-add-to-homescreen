@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/mike-north/ember-add-to-homescreen/compare/v0.3.1...v0.3.2) (2018-12-05)
+
+
+### Bug Fixes
+
+* replace travis-deploy-once with travis-ci stage ([#133](https://github.com/mike-north/ember-add-to-homescreen/issues/133)) ([1d136c7](https://github.com/mike-north/ember-add-to-homescreen/commit/1d136c7)), closes [#132](https://github.com/mike-north/ember-add-to-homescreen/issues/132)
+
 ## [0.3.1](https://github.com/mike-north/ember-add-to-homescreen/compare/v0.3.0...v0.3.1) (2018-11-27)
 
 
