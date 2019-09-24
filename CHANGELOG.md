@@ -1,3 +1,10 @@
+## [0.3.3](https://github.com/mike-north/ember-add-to-homescreen/compare/v0.3.2...v0.3.3) (2019-09-24)
+
+
+### Bug Fixes
+
+* **deps:** stable ember infrastructure ([4a9d9e2](https://github.com/mike-north/ember-add-to-homescreen/commit/4a9d9e2))
+
 ## [0.3.2](https://github.com/mike-north/ember-add-to-homescreen/compare/v0.3.1...v0.3.2) (2018-12-05)
 
 
