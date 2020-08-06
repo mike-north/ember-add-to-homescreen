@@ -55,7 +55,7 @@
     "eslint-plugin-node": "11.1.0",
     "husky": "1.2.1",
     "loader.js": "4.7.0",
-    "semantic-release": "15.12.5",
+    "semantic-release": "17.1.1",
     "qunit-dom": "1.4.0"
   },
   "keywords": [
